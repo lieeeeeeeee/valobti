@@ -1,0 +1,115 @@
+{
+  "agents": [
+    {
+      "id": "jett",
+      "name": {
+        "ja": "ジェット",
+        "en": "Jett",
+        "ko": "제트"
+      },
+      "role": "duelist",
+      "image": "/agent/jett.png",
+      "metrics": {
+        "aggressiveness": 3,
+        "strategy": 1,
+        "support": 0
+      },
+      "reason": {
+        "ja": "あなたは素早く状況を判断し、積極的に行動するスタイル。最前線で戦況を切り開くジェットが最適です！",
+        "en": "You quickly assess situations and take proactive action. Jett is perfect for opening up fights on the frontline!",
+        "ko": "당신은 상황을 빠르게 판단하고 적극적으로 행동하는 스타일입니다. 최전방에서 전황을 개척하는 제트가 최적입니다!"
+      },
+      "traits": {
+        "ja": [
+          "高い機動力を活かした攻撃的なプレイが得意",
+          "スモークとダッシュを組み合わせた奇襲が可能",
+          "ナイフとアルティメットで確実なキルを狙える"
+        ],
+        "en": [
+          "Excels at aggressive plays with high mobility",
+          "Can ambush using smokes combined with dashes",
+          "Can secure kills with knives and ultimate"
+        ],
+        "ko": [
+          "높은 기동성을 활용한 공격적인 플레이에 능함",
+          "스모크와 대시를 조합한 기습이 가능",
+          "나이프와, 얼티밋으로 확실한 킬을 노릴 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "sage",
+      "name": {
+        "ja": "セージ",
+        "en": "Sage",
+        "ko": "세이지"
+      },
+      "role": "sentinel",
+      "image": "/agent/sage.png",
+      "metrics": {
+        "aggressiveness": 0,
+        "strategy": 1,
+        "support": 3
+      },
+      "reason": {
+        "ja": "あなたはチームを支え、状況をコントロールするスタイル。回復や守りに長けたセージが最適です！",
+        "en": "You prefer supporting your team and controlling the situation. Sage, with her healing and defensive capabilities, is perfect for you!",
+        "ko": "당신은 팀을 지원하고 상황을 통제하는 스타일입니다. 회복과 방어에 능한 세이지가 최적입니다!"
+      },
+      "traits": {
+        "ja": [
+          "味方を回復し、チームの生存率を高める",
+          "壁や減速フィールドで敵の動きを制限",
+          "復活アルティメットで戦力を維持できる"
+        ],
+        "en": [
+          "Heals allies to increase team survival rate",
+          "Restricts enemy movement with walls and slowing fields",
+          "Can maintain team strength with resurrection ultimate"
+        ],
+        "ko": [
+          "아군을 회복시켜 팀의 생존율을 높임",
+          "벽과 감속 필드로 적의 움직임을 제한",
+          "부활 얼티밋으로 전력을 유지할 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "omen",
+      "name": {
+        "ja": "オーメン",
+        "en": "Omen",
+        "ko": "오멘"
+      },
+      "role": "controller",
+      "image": "/agent/omen.png",
+      "metrics": {
+        "aggressiveness": 1,
+        "strategy": 3,
+        "support": 1
+      },
+      "reason": {
+        "ja": "あなたは戦術的思考に優れ、状況を俯瞰するスタイル。マップコントロールに長けたオーメンが最適です！",
+        "en": "You excel at tactical thinking and overseeing the battlefield. Omen, with his map control capabilities, is perfect for you!",
+        "ko": "당신은 전술적 사고에 뛰어나며 상황을 조망하는 스타일입니다. 맵 컨트롤에 능한 오멘이 최적입니다!"
+      },
+      "traits": {
+        "ja": [
+          "スモークで視界をコントロールし有利な状況を作る",
+          "テレポートで奇襲や安全な移動が可能",
+          "パラノイアで敵の視界を奪い戦況を優位に"
+        ],
+        "en": [
+          "Controls vision with smokes to create advantageous situations",
+          "Can ambush or move safely using teleports",
+          "Gains advantage by blinding enemies with Paranoia"
+        ],
+        "ko": [
+          "스모크로 시야를 제어하고 유리한 상황을 만듦",
+          "텔레포트로 기습이나 안전한 이동이 가능",
+          "파라노이아로 적의 시야를 빼앗아 전황을 유리하게"
+        ]
+      }
+    }
+  ]
+} 

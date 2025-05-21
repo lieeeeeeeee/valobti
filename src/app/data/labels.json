@@ -1,0 +1,77 @@
+{
+  "home": {
+    "title": {
+      "ja": "あなたに最適なValorantエージェントを見つけよう",
+      "en": "Find your perfect Valorant agent",
+      "ko": "당신에게 최적의 Valorant 에이전트를 찾아보세요"
+    },
+    "subtitle": {
+      "ja": "いくつかの簡単な質問に答えるだけで、あなたのプレイスタイルにぴったりのエージェントが見つかります。",
+      "en": "Answer a few simple questions to find the agent that perfectly fits your playstyle.",
+      "ko": "몇 가지 간단한 질문에 답하면 당신의 플레이 스타일에 딱 맞는 에이전트를 찾을 수 있습니다."
+    },
+    "startButton": {
+      "ja": "診断を始める",
+      "en": "Start Diagnostic",
+      "ko": "진단 시작하기"
+    }
+  },
+  "diagnostic": {
+    "question": {
+      "ja": "質問",
+      "en": "Question",
+      "ko": "질문"
+    }
+  },
+  "results": {
+    "title": {
+      "ja": "あなたの診断結果",
+      "en": "Your Diagnostic Result",
+      "ko": "당신의 진단 결과"
+    },
+    "role": {
+      "duelist": {
+        "ja": "デュエリスト",
+        "en": "Duelist",
+        "ko": "듀얼리스트"
+      },
+      "sentinel": {
+        "ja": "センチネル",
+        "en": "Sentinel",
+        "ko": "센티널"
+      },
+      "controller": {
+        "ja": "コントローラー",
+        "en": "Controller",
+        "ko": "컨트롤러"
+      },
+      "initiator": {
+        "ja": "イニシエーター",
+        "en": "Initiator",
+        "ko": "이니시에이터"
+      }
+    },
+    "retryButton": {
+      "ja": "もう一度診断する",
+      "en": "Try Again",
+      "ko": "다시 진단하기"
+    },
+    "shareButton": {
+      "ja": "結果をXで共有する",
+      "en": "Share on X",
+      "ko": "X에서 결과 공유하기"
+    },
+    "shareText": {
+      "ja": "私のValorantおすすめエージェントは「{agentName}」でした！\n#ValoNavi #VALORANT",
+      "en": "My recommended Valorant agent is \"{agentName}\"!\n#ValoNavi #VALORANT",
+      "ko": "내 Valorant 추천 에이전트는 \"{agentName}\"입니다!\n#ValoNavi #VALORANT"
+    }
+  },
+  "footer": {
+    "copyright": {
+      "ja": "© 2025 ValoBTI",
+      "en": "© 2025 ValoBTI",
+      "ko": "© 2025 ValoBTI"
+    }
+  }
+} 

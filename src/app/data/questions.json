@@ -1,0 +1,142 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "en": "When faced with a challenging situation in a game, what's your typical approach?",
+        "ja": "ゲーム内で困難な状況に直面したとき、あなたの典型的なアプローチは？",
+        "ko": "게임 중 어려운 상황에 직면했을 때, 당신의 일반적인 접근 방식은 무엇인가요?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Analyze the situation carefully before making any moves",
+            "ja": "慎重に状況を分析してから行動する",
+            "ko": "움직이기 전에 상황을 신중하게 분석한다"
+          },
+          "metrics": {
+            "aggressiveness": 0,
+            "strategy": 3,
+            "support": 1
+          }
+        },
+        {
+          "text": {
+            "en": "Take immediate action to seize opportunities",
+            "ja": "すぐに行動を起こしてチャンスを掴む",
+            "ko": "기회를 잡기 위해 즉시 행동을 취한다"
+          },
+          "metrics": {
+            "aggressiveness": 3,
+            "strategy": 1,
+            "support": 0
+          }
+        },
+        {
+          "text": {
+            "en": "Coordinate with teammates to find the best solution",
+            "ja": "チームメイトと協力して最善の解決策を見つける",
+            "ko": "최적의 해결책을 찾기 위해 팀원들과 협력한다"
+          },
+          "metrics": {
+            "aggressiveness": 0,
+            "strategy": 1,
+            "support": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": {
+        "en": "What role do you prefer in team-based games?",
+        "ja": "チームベースのゲームで、あなたが好む役割は？",
+        "ko": "팀 기반 게임에서 어떤 역할을 선호하시나요?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Leading the charge and initiating fights",
+            "ja": "先頭に立って戦闘を仕掛ける",
+            "ko": "돌격을 이끌고 전투를 시작하는 역할"
+          },
+          "metrics": {
+            "aggressiveness": 3,
+            "strategy": 1,
+            "support": 0
+          }
+        },
+        {
+          "text": {
+            "en": "Supporting and empowering teammates",
+            "ja": "チームメイトをサポートし、力を引き出す",
+            "ko": "팀원을 지원하고 역량을 강화하는 역할"
+          },
+          "metrics": {
+            "aggressiveness": 0,
+            "strategy": 1,
+            "support": 3
+          }
+        },
+        {
+          "text": {
+            "en": "Coordinating strategies and making callouts",
+            "ja": "戦略を立て、指示を出す",
+            "ko": "전략을 조정하고 지시를 내리는 역할"
+          },
+          "metrics": {
+            "aggressiveness": 1,
+            "strategy": 3,
+            "support": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": {
+        "en": "How do you handle resource management in games?",
+        "ja": "ゲーム内のリソース管理をどのように行いますか？",
+        "ko": "게임 내 자원 관리를 어떻게 하시나요?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Save resources for critical moments",
+            "ja": "重要な場面のためにリソースを温存する",
+            "ko": "중요한 순간을 위해 자원을 아껴둔다"
+          },
+          "metrics": {
+            "aggressiveness": 0,
+            "strategy": 3,
+            "support": 1
+          }
+        },
+        {
+          "text": {
+            "en": "Share resources with teammates",
+            "ja": "チームメイトとリソースを共有する",
+            "ko": "팀원들과 자원을 공유한다"
+          },
+          "metrics": {
+            "aggressiveness": 0,
+            "strategy": 1,
+            "support": 3
+          }
+        },
+        {
+          "text": {
+            "en": "Use resources aggressively to maintain pressure",
+            "ja": "プレッシャーを維持するために積極的にリソースを使用する",
+            "ko": "압박감을 유지하기 위해 적극적으로 자원을 사용한다"
+          },
+          "metrics": {
+            "aggressiveness": 3,
+            "strategy": 1,
+            "support": 0
+          }
+        }
+      ]
+    }
+  ]
+}
