@@ -22,14 +22,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Your VALORANT agent personality is ${agent.name.en}!`,
     openGraph: {
       title: `VALORANT Agent Personality Test - ${agent.name.en}`,
-      description: `Your VALORANT agent personality is ${agent.name.en}!`,
-      images: [agent.image],
+      description: `Your VALORANT Agent Personality Test is ${agent.name.en}!`,
+      images: [`https://valobti.vercel.app${agent.image}`],
     },
     twitter: {
       card: 'summary_large_image',
       title: `VALORANT Agent Personality Test - ${agent.name.en}`,
-      description: `Your VALORANT agent personality is ${agent.name.en}!`,
-      images: [agent.image],
+      description: `Your VALORANT Agent Personality Test is ${agent.name.en}!`,
+      images: [`https://valobti.vercel.app${agent.image}`],
     },
   };
 }
