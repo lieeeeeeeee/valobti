@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { getAgent } from '@/app/lib/i18n';
+import { redirect } from 'next/navigation';
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -35,9 +36,5 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default function SharePage() {
-  return (
-    <div className="min-h-screen flex items-center justify-center">
-      <p className="text-xl">Loading...</p>
-    </div>
-  );
+  redirect('/');
 } 

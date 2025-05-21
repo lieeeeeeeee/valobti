@@ -1467,6 +1467,7 @@ src:
           imports:
             - next:{Metadata}
             - '@/app/lib/i18n:{getAgent}'
+            - next/navigation:{redirect}
           interfaces:
             - Props
           methods:
