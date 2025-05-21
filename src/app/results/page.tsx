@@ -120,6 +120,7 @@ const ResultsPage = () => {
               size="lg"
               className="bg-[#1DA1F2] hover:bg-[#1a8cd8]"
               onClick={handleShare}
+              disabled={!agentResult}
             >
               <Share2 className="mr-2 h-4 w-4" />
               {getLabel('results.shareButton', language)}
