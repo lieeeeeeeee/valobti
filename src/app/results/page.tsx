@@ -34,7 +34,7 @@ const ResultsPage = () => {
   const handleShare = () => {
     const agentName = agentResult?.name[language] || '';
     const shareText = getLabel('results.shareText', language).replace('{agentName}', agentName);
-    const shareUrl = `${window.location.origin}/share/${agentResult.agentId}`;
+    const shareUrl = `${window.location.origin}/share/${agentResult.id}`;
     const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`;
     window.open(twitterUrl, '_blank');
   };
