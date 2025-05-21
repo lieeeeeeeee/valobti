@@ -26,6 +26,8 @@ const ResultsPage = () => {
     const selectedOptions = JSON.parse(selectedOptionsStr);
     const result = calculateMetrics(selectedOptions);
     const agent = getAgent(result.agentId);
+    console.log('Calculated result:', result);
+    console.log('Fetched agent:', agent);
     setAgentResult({ ...agent, metrics: result.metrics });
   }, [router]);
 
