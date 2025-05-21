@@ -1,12 +1,14 @@
 import { Metadata } from 'next';
 import { getAgent } from '@/app/lib/i18n';
 
-type Props = {
-  params: { id: string }
-};
+interface Props {
+  params: Promise<{ id: string }>;
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const agent = getAgent(params.id);
+  const resolvedParams = await params;
+  const agent = getAgent(resolvedParams.id);
   
   if (!agent) {
     return {

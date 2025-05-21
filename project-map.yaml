@@ -23,11 +23,11 @@ src:
     components:
       layout:
         footer:
-          page.tsx:
+          footer.tsx:
             exports:
               - Footer:function
             imports:
-              - '@/app/components/layout/header/page:{useLanguageStore}'
+              - '@/app/components/layout/header/header:{useLanguageStore}'
               - '@/app/lib/i18n:{getLabel}'
             interfaces: []
             methods:
@@ -37,7 +37,7 @@ src:
             state: []
             type: module
         header:
-          page.tsx:
+          header.tsx:
             exports:
               - Header:function
               - useLanguageStore:variable
@@ -104,7 +104,7 @@ src:
             - react:{* as React}
             - '@radix-ui/react-alert-dialog:{* as AlertDialogPrimitive}'
             - '@/app/lib/utils:{cn}'
-            - '@/components/ui/button:{buttonVariants}'
+            - '@/app/components/ui/button:{buttonVariants}'
           interfaces: []
           methods:
             - |-
@@ -258,7 +258,7 @@ src:
             - lucide-react:{ChevronLeft,ChevronRight}
             - react-day-picker:{DayPicker}
             - '@/app/lib/utils:{cn}'
-            - '@/components/ui/button:{buttonVariants}'
+            - '@/app/components/ui/button:{buttonVariants}'
           interfaces: []
           methods:
             - |-
@@ -320,7 +320,7 @@ src:
             - embla-carousel-react:{useEmblaCarousel,UseEmblaCarouselType}
             - lucide-react:{ArrowLeft,ArrowRight}
             - '@/app/lib/utils:{cn}'
-            - '@/components/ui/button:{Button}'
+            - '@/app/components/ui/button:{Button}'
           interfaces: []
           methods:
             - useCarousel()
@@ -415,7 +415,7 @@ src:
             - cmdk:{Command as CommandPrimitive}
             - lucide-react:{Search}
             - '@/app/lib/utils:{cn}'
-            - '@/components/ui/dialog:{Dialog,DialogContent}'
+            - '@/app/components/ui/dialog:{Dialog,DialogContent}'
           interfaces:
             - CommandDialogProps
           methods:
@@ -639,7 +639,7 @@ src:
             - '@radix-ui/react-slot:{Slot}'
             - react-hook-form:{Controller,ControllerProps,FieldPath,FieldValues,FormProvider,useFormContext}
             - '@/app/lib/utils:{cn}'
-            - '@/components/ui/label:{Label}'
+            - '@/app/components/ui/label:{Label}'
           interfaces: []
           methods:
             - |-
@@ -822,7 +822,7 @@ src:
             - react:{* as React}
             - lucide-react:{ChevronLeft,ChevronRight,MoreHorizontal}
             - '@/app/lib/utils:{cn}'
-            - '@/components/ui/button:{ButtonProps,buttonVariants}'
+            - '@/app/components/ui/button:{ButtonProps,buttonVariants}'
           interfaces: []
           methods:
             - 'Pagination({ className, ...props }: React.ComponentProps<''nav''>)'
@@ -1274,8 +1274,8 @@ src:
           - next/navigation:{useRouter}
           - '@/app/components/ui/progress:{Progress}'
           - '@/app/lib/utils:{cn}'
-          - '@/app/components/layout/header/page:{Header,useLanguageStore}'
-          - '@/app/components/layout/footer/page:{Footer}'
+          - '@/app/components/layout/header/header:{Header,useLanguageStore}'
+          - '@/app/components/layout/footer/footer:{Footer}'
           - '@/app/lib/questions:{getQuestions,getLocalizedText}'
           - '@/app/lib/i18n:{getLabel}'
           - '@/app/types/questions:{QuestionOption}'
@@ -1424,8 +1424,8 @@ src:
         - lucide-react:{ChevronRight}
         - '@/app/components/ui/button:{Button}'
         - next/navigation:{useRouter}
-        - '@/app/components/layout/header/page:{Header,useLanguageStore}'
-        - '@/app/components/layout/footer/page:{Footer}'
+        - '@/app/components/layout/header/header:{Header,useLanguageStore}'
+        - '@/app/components/layout/footer/footer:{Footer}'
         - '@/app/lib/i18n:{getLabel}'
       interfaces: []
       methods:
@@ -1443,8 +1443,8 @@ src:
           - '@/app/components/ui/button:{Button}'
           - next/navigation:{useRouter}
           - next/image:{Image}
-          - '@/app/components/layout/header/page:{Header,useLanguageStore}'
-          - '@/app/components/layout/footer/page:{Footer}'
+          - '@/app/components/layout/header/header:{Header,useLanguageStore}'
+          - '@/app/components/layout/footer/footer:{Footer}'
           - '@/app/lib/i18n:{getLabel,getAgent,getRoleName}'
           - '@/app/lib/questions:{calculateMetrics}'
           - react:{useEffect,useState}
@@ -1467,7 +1467,8 @@ src:
           imports:
             - next:{Metadata}
             - '@/app/lib/i18n:{getAgent}'
-          interfaces: []
+          interfaces:
+            - Props
           methods:
             - 'generateMetadata({ params }: Props)'
             - SharePage()

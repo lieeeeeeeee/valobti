@@ -4,10 +4,10 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Progress } from '@/app/components/ui/progress';
 import { cn } from '@/app/lib/utils';
-import { Header } from '@/app/components/layout/header/page';
-import { Footer } from '@/app/components/layout/footer/page';
+import { Header } from '@/app/components/layout/header/header';
+import { Footer } from '@/app/components/layout/footer/footer';
 import { getQuestions, getLocalizedText } from '@/app/lib/questions';
-import { useLanguageStore } from '@/app/components/layout/header/page';
+import { useLanguageStore } from '@/app/components/layout/header/header';
 import { getLabel } from '@/app/lib/i18n';
 import { QuestionOption } from '@/app/types/questions';
 

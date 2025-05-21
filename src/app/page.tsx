@@ -3,9 +3,9 @@
 import { ChevronRight } from 'lucide-react';
 import { Button } from '@/app/components/ui/button';
 import { useRouter } from 'next/navigation';
-import { Header } from '@/app/components/layout/header/page';
-import { Footer } from '@/app/components/layout/footer/page';
-import { useLanguageStore } from '@/app/components/layout/header/page';
+import { Header } from '@/app/components/layout/header/header';
+import { Footer } from '@/app/components/layout/footer/footer';
+import { useLanguageStore } from '@/app/components/layout/header/header';
 import { getLabel } from '@/app/lib/i18n';
 
 export default function Home() {

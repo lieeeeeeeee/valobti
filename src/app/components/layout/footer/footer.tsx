@@ -1,6 +1,6 @@
 'use client';
 
-import { useLanguageStore } from '@/app/components/layout/header/page';
+import { useLanguageStore } from '@/app/components/layout/header/header';
 import { getLabel } from '@/app/lib/i18n';
 
 export function Footer() {
